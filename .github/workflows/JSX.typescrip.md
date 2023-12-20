@@ -158,7 +158,6 @@ export default ListGroup
 const list = terms.map(term => <li className="list-group-item" key={term} onClick={() => console.log("Clicked")}>{term}</li>)
 
 function ListGroup() {
-
     return( 
     <Fragment>
         <h2>Terms</h2>
@@ -176,7 +175,6 @@ export default ListGroup
 ```js
 const inside = () =>{
    return terms.map(term => <li className="list-group-item" key={term} onClick={() => console.log("Clicked")}>{term}</li>)
-
 }
 
 const basic = () => {
