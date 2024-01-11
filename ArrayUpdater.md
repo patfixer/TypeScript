@@ -1,4 +1,4 @@
-# Updaters and UseStates 
+# Array and UseStates 
 Resetting the input textbox after clicking the add button.
 The first method `setName([getName])` will replace the existing arrays of emojis.
 Spreaders `[...name, getName]` this will spread the original array, while adding new 
