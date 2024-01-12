@@ -58,6 +58,16 @@ function deleteFromList(index) {
 
 `if (index > 0) {}` If the index is greater than 0, we are doing the following:
 
+```js
+function moveUp(index) {
+        if (index > 0) {
+            const updateUp = [...addTo];
+            [updateUp[index], updateUp[index - 1]] = [updateUp[index - 1], updateUp[index],];
+            setToList(updateUp);
+        }
+    }
+```
+
 `const updateUp = [...addTo];` We are creating a new array called updateUp and we are assigning the addTo array to it.
 
 `[updateUp[index], updateUp[index - 1]] = [updateUp[index - 1], updateUp[index]` We are swapping the values of the index and the index - 1.
