@@ -2,9 +2,17 @@
 # This is a more final version 
 
 This use state method to create a list of 3 items
-`useState(["lamp", "watch", "phone"]`
+```js 
+const [addTo, setToList] = useState(["lamp", "watch", "phone"]);
+```
 
-`useState("")` A method to create an empty input box
+`useState("")` A method to create an empty input box.
+
+```js
+function List() {
+    const [addTo, setToList] = useState(["lamp", "watch", "phone"]);
+    const [newList, setNewList] = useState("")
+```
 
 `const [addTo, setToList]` addTo the array and setToList to update the array
 
