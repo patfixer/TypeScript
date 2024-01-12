@@ -18,7 +18,13 @@ function List() {
 
 `const [newList, setNewList]` newList is the input box and setNewList is to update the input box
 
-`function inputChange(event)` this changes the events inside the input box
+
+ This is needed the event inside the parameters 
+```js
+function inputChange(event) {
+        setNewList(event.target.value)
+    }
+```
 
 `setNewList(event.target.value)` this target the value of the input box
 
