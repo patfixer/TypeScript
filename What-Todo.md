@@ -47,6 +47,15 @@ function addToList() {
  
 `function moveUp(index){}` A function called moveUp.    
 
+
+```js
+function deleteFromList(index) {
+        const updateList = addTo.filter((item, i) => i !== index);
+        setToList(updateList);
+    }
+```
+
+
 `if (index > 0) {}` If the index is greater than 0, we are doing the following:
 
 `const updateUp = [...addTo];` We are creating a new array called updateUp and we are assigning the addTo array to it.
