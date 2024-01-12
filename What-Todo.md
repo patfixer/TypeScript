@@ -29,7 +29,14 @@ function inputChange(event) {
 `setNewList(event.target.value)` this target the value of the input box
 
 
-` function addToList(){}` A function called addToList. 
+ A function called addToList. 
+
+```js
+function addToList() {
+        setToList([...addTo, newList]);
+        setNewList("");
+    }
+```
  
 `setToList([...addTo, newList]);` Inside the function we are updating the addTo array with the newList and then we are updating the newList to an empty string, which is `setNewList("");`.
 
