@@ -28,7 +28,7 @@ function Text() {
 ```
 But is better to use an arrow function `setName(n => [...n, getName])` as a parameter don't want `...name` to be spread right when the application is running, only when you have a click able function.
 
-the same name as `[name, setName]` -Declared useState `const [name, setName] = useState([okay.right, okay.dash, okay.fire])`
+`[name, setName]` -Declared useState `const [name, setName] = useState([okay.right, okay.dash, okay.fire])`
 
 
 ```js
