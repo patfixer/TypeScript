@@ -26,7 +26,7 @@ function Text() {
     }
 }
 ```
-But is better to use `setName(n => [...n, getName])` as a parameter don't want `...name` to be;
+But is better to use an arrow function `setName(n => [...n, getName])` as a parameter don't want `...name` to be spread right when you run the application, only when you clicked.
 
 the same name as `[name, setName]` -Declared useState `const [name, setName] = useState([okay.right, okay.dash, okay.fire])`
 
