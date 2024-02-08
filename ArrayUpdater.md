@@ -1,8 +1,6 @@
 # Array and UseStates 
 Resetting the input textbox after clicking the add button.
-The first method `setName([getName])` will replace the existing arrays of emojis.
-Spreaders `[...name, getName]` this will spread the original array, while adding new 
-values to the array.
+The first method `setName([getName])` will replace the existing arrays of emojis. And `[...name, getName]` this will spread the original array, while adding new values to the array.
 ```js
 import { useState } from "react";
 
